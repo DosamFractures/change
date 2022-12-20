@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gingerit"
-version = "0.8.2"
+version = "0.9.0"
 description = """
 Correcting spelling and grammar mistakes based on the context of complete \
 entences. Wrapper around the gingersoftware.com API\
