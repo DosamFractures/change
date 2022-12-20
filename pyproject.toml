@@ -18,7 +18,7 @@ classifiers = [
 
 
 [tool.poetry.dependencies]
-python = ">=3.6.2,<4"
+python = ">=3.7,<4"
 cloudscraper = "^1.2.66"
 
 [tool.poetry.group.test.dependencies]
