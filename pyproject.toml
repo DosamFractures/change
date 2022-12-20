@@ -21,8 +21,10 @@ classifiers = [
 python = ">=3.6.2,<4"
 requests = "^2.25.1"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.test.dependencies]
 pytest = "^6.2.4"
+
+[tool.poetry.group.develop.dependencies]
 black = "^21.6b0"
 isort = "^5.9.1"
 pyupgrade = "^2.20.0"
