@@ -22,9 +22,9 @@ python = ">=3.7,<4"
 cloudscraper = "^1.2.66"
 
 [tool.poetry.group.test.dependencies]
-pytest = "^7.2.0"
+pytest = "*"
 
 [tool.poetry.group.develop.dependencies]
-black = ">=22.12,<24.0"
-isort = "^5.9.1"
-pyupgrade = ">=2.20,<4.0"
+black = "*"
+isort = "*"
+pyupgrade = "*"
