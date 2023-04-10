@@ -25,6 +25,6 @@ cloudscraper = "^1.2.66"
 pytest = "^7.2.0"
 
 [tool.poetry.group.develop.dependencies]
-black = "^22.12.0"
+black = ">=22.12,<24.0"
 isort = "^5.9.1"
 pyupgrade = "^2.20.0"
