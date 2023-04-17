@@ -54,4 +54,5 @@ class GingerIt(object):
                     }
                 )
 
-        return {"text": text, "result": result, "corrections": corrections}
+        retx = {"text": text, "result": result, "corrections": corrections}
+        return retx
